@@ -1,33 +1,33 @@
-# Serveur et Client TCP - Projet de Communication en Temps Réel
+# TCP Server and Client - Real-Time Communication Project
 
-Ce projet implémente un serveur capable de communiquer avec plusieurs clients simultanément via des sockets TCP. Vous pouvez voir dans ma vidéo de démo comment deux clients échangent des messages avec le serveur en temps réel.
+This project implements a server capable of communicating with multiple clients simultaneously via TCP sockets. In my demo video, you can see two clients exchanging messages with the server in real-time.
 
-## 💡 Concept en Bref
+## 💡 Concept in Brief
 
-### Serveur
-- Le serveur écoute les connexions entrantes et répond aux clients.
+### Server
+- The server listens for incoming connections and responds to clients.
 
 ### Client
-- Le client se connecte au serveur, envoie des messages et reçoit des réponses en temps réel.
+- The client connects to the server, sends messages, and receives replies in real-time.
 
 ### Communication
-- La communication entre le serveur et les clients se fait via des sockets TCP, garantissant un échange de messages fiable et en temps réel.
+- Communication between the server and clients is done through TCP sockets, ensuring reliable, real-time message exchange.
 
-### Fermeture de la Connexion
-- Lorsque l'un des clients envoie le message `bye`, la connexion est fermée proprement.
+### Closing the Connection
+- When a client sends the message `bye`, the connection is cleanly closed.
 
-## 🔧 Technologies Utilisées
-- **Sockets TCP** : Utilisation des sockets pour établir une communication réseau fiable entre le serveur et les clients.
-- **Python (ou autre langage)** : Langage utilisé pour implémenter le serveur et le client (mentionner le langage si nécessaire).
+## 🔧 Technologies Used
+- **TCP Sockets**: Using sockets to establish reliable network communication between the server and clients.
+- **Python (or another language)**: The programming language used to implement the server and client (mention the language if necessary).
 
-## 🚀 Objectifs du Projet
-- Mettre en œuvre une communication réseau simple mais efficace.
-- Illustrer comment la théorie des sockets peut être appliquée dans un projet concret.
-- Permettre une interaction en temps réel entre plusieurs clients et un serveur.
+## 🚀 Project Goals
+- Implement simple yet effective network communication.
+- Illustrate how socket theory can be applied in a concrete project.
+- Enable real-time interaction between multiple clients and a server.
 
-## 🎥 Vidéo Démonstration
-Vous pouvez consulter la vidéo de démonstration du projet pour voir deux clients échanger des messages avec le serveur en temps réel.
-https://www.linkedin.com/feed/update/urn:li:activity:7362067959806140416/
+## 🎥 Demo Video
+You can check out the demo video of the project to see two clients exchanging messages with the server in real-time.
+[LinkedIn Demo Video](https://www.linkedin.com/feed/update/urn:li:activity:7362067959806140416/)
 
 ## 📝 Conclusion
-Ce projet m'a permis de voir comment la théorie des sockets prend vie et comment la communication réseau peut être implémentée de manière simple mais puissante, même dans un projet à petite échelle !
+This project allowed me to see how socket theory comes to life and how network communication can be implemented in a simple yet powerful way, even in a small-scale project!
